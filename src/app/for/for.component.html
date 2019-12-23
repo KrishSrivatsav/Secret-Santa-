@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="fr.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Forget and Reset Password </title>
-
-</head>
-
 <body>
     <script src="fr.js"></script>
     <div class="container cont">
@@ -43,7 +30,7 @@
                                   </ul>
                                 </div>
                                 <div class="card-body bb">
-                                  <img src="l.png" alt="l.png"> <br> <br>
+                                  <img src="/assets/l.png" alt="l.png"> <br> <br>
                                   <div class="formcls">
                                     <form>
                                          <label for="email"></label>
@@ -55,7 +42,7 @@
                                   </div>
                                   <h5 class="card-title">Forgot Password?</h5>
                                   <p class="card-text">You can reset your password here..</p> <br>
-                                  <a href="#" class="btn btn-primary"> Reset Password</a>
+                                  <a href="#" class="btn btn-primary" [routerLink]="['reset']"> Reset Password</a>
                                 </div>
                         </div>
                 <!-- </div> -->
@@ -73,5 +60,3 @@
             </div>
 
     </div>
-</body>
-</html>

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ForresComponent } from './forres.component';
+import { ResComponent } from './res.component';
 
-describe('ForresComponent', () => {
-  let component: ForresComponent;
-  let fixture: ComponentFixture<ForresComponent>;
+describe('ResComponent', () => {
+  let component: ResComponent;
+  let fixture: ComponentFixture<ResComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ForresComponent ]
+      declarations: [ ResComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ForresComponent);
+    fixture = TestBed.createComponent(ResComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
